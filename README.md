@@ -2,7 +2,7 @@
 
 | Android 10 (API 29) or below FIRST TIME| Android 10 (API 29) or below SUBSEQUENT TIME | 
 |:---:|:---:|
-|<img width="440" alt="image" src="https://user-images.githubusercontent.com/35066207/174808010-2fb36e37-81c4-4c70-b444-86404be56ab9.png">| <img width="436" alt="image" src="https://user-images.githubusercontent.com/35066207/174816982-45393c56-83e8-4421-bc15-51fb3868cc02.png">|
+|<img width="436" alt="image" src="https://user-images.githubusercontent.com/35066207/174816982-45393c56-83e8-4421-bc15-51fb3868cc02.png">|<img width="440" alt="image" src="https://user-images.githubusercontent.com/35066207/174808010-2fb36e37-81c4-4c70-b444-86404be56ab9.png">
 
 |Android 11 (API 30) or above |
 |:---:|
