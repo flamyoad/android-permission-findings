@@ -1,8 +1,12 @@
 # android-permission-findings
 
-| Android 10 (API 29) or below | Android 11 (API 30) or above |
+| Android 10 (API 29) or below FIRST TIME| Android 10 (API 29) or below SUBSEQUENT TIME | 
 |:---:|:---:|
-|<img width="440" alt="image" src="https://user-images.githubusercontent.com/35066207/174808010-2fb36e37-81c4-4c70-b444-86404be56ab9.png">|<img width="391" alt="image" src="https://user-images.githubusercontent.com/35066207/174808326-09188586-1161-41bb-8598-f840112934b5.png">|
+|<img width="440" alt="image" src="https://user-images.githubusercontent.com/35066207/174808010-2fb36e37-81c4-4c70-b444-86404be56ab9.png">| <img width="436" alt="image" src="https://user-images.githubusercontent.com/35066207/174816982-45393c56-83e8-4421-bc15-51fb3868cc02.png">|
+
+|Android 11 (API 30) or above |
+|:---:|
+ |<img width="391" alt="image" src="https://user-images.githubusercontent.com/35066207/174808326-09188586-1161-41bb-8598-f840112934b5.png">|
 
 Starting in Android 11, if the user [taps Deny for a specific permission more than once](https://developer.android.com/about/versions/11/privacy/permissions#dialog-visibility) during your app's lifetime of installation on a device, the user doesn't see the system permissions dialog if your app requests that permission again. The user's action implies "don't ask again." 
 
