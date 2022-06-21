@@ -1,5 +1,10 @@
 # android-permission-findings
 
+Runtime Permission is introduced in Android 6 Marshmallow (API 23). So if it's below API 23, we don't have to ask for permission in-app, just declare in manifest.
+
+Therefore, we need to add `Build.VERSION.SDK_INT >= Build.VERSION_CODES.M` checks each time we ask for permissions.
+
+
 | Android 10 (API 29) or below FIRST TIME| Android 10 (API 29) or below SUBSEQUENT TIME | 
 |:---:|:---:|
 |<img width="436" alt="image" src="https://user-images.githubusercontent.com/35066207/174816982-45393c56-83e8-4421-bc15-51fb3868cc02.png">|<img width="440" alt="image" src="https://user-images.githubusercontent.com/35066207/174808010-2fb36e37-81c4-4c70-b444-86404be56ab9.png">
