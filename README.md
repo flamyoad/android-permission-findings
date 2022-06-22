@@ -34,3 +34,5 @@ shouldShowRationale >= API 30 (We assume user denies everytime)
 ```
 
 `shouldShowRationale()` will still return false before you call `ActivityResultLauncher::launch()`. The only time it returns true is when you calling dialog the second time and user has denied during the first time.
+
+[Android 11 location permission popup, users when clicks on "only this time" option, why OS not asking the permission again](https://stackoverflow.com/questions/66288530/android-11-location-permission-popup-users-when-clicks-on-only-this-time-opti)
