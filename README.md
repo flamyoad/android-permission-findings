@@ -18,10 +18,19 @@ Starting in Android 11, if the user [taps Deny for a specific permission more th
 Before Android 11, users would see the system permissions dialog each time your app requested a permission, unless the user had previously selected a "don't ask again" checkbox or option.
 
 ```
-shouldShowRationale >= API 30 (We assume user denies everytime)
+shouldShowRationale <= API 29 (We assume user denies everytime)
 1st time - false
 2nd time - true
 3rd time - false
 4th time - false
 ```
+
+```
+shouldShowRationale >= API 30 (We assume user denies everytime)
+1st time - false
+2nd time - true
+3rd time - N/A (OS popup will not be shown)
+4th time - N/A (OS popup will not be shown)
+```
+
 `shouldShowRationale()` will still return false before you call `ActivityResultLauncher::launch()`. The only time it returns true is when you calling dialog the second time and user has denied during the first time.
